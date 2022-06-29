@@ -97,7 +97,7 @@ section{
     bottom:-45px;
     left:50%;
     transform: translateX(-50%);
-}
+}ww
 .service .service-img .icon i{
     font-size:36px;
 }
@@ -160,3 +160,49 @@ form .form-control::placeholder{
     color:black !important;
     border-bottom: 1px solid  black;
 }
+.service-img {
+    position: relative;
+    width: 50%;
+  }
+  
+  .hoverImage {
+    display: block;
+    width: 400px;
+    height: 200px;
+  }
+  
+  .overlay1 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 400px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+  
+  .service-img:hover .overlay1 {
+    opacity: 0.9;
+  }
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  @media (max-width : 768px) {
+    .hoverImage{
+        margin-left:20%;
+    }
+    .overlay1 {
+        margin-left:20%;
+    }
+  }
