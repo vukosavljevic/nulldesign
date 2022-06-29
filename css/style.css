@@ -160,9 +160,9 @@ form .form-control::placeholder{
     color:black !important;
     border-bottom: 1px solid  black;
 }
-.service-img {
+.service-img2 {
     position: relative;
-    width: 50%;
+    width:50%;
   }
   
   .hoverImage {
@@ -187,7 +187,7 @@ form .form-control::placeholder{
   .service-img:hover .overlay1 {
     opacity: 0.9;
   }
-  .text {
+  .text1 {
     color: white;
     font-size: 20px;
     position: absolute;
